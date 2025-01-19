@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-model = load_model('sequential_turker.h5')
+model = load_model('sequential.h5')
 
 video = cv2.VideoCapture(0)
 
